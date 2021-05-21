@@ -33,7 +33,7 @@ function Alert(props) {
 }
 // Line 18 - make function into a const arrow function and destructure props
 // Line 18 - move this component into its own file
-// Line 20 and 25 - could use more descriptive name for sate, change state from number to boolean
+// Line 20 and 25 - could use more descriptive name for state, change state from number to boolean
 // Line 28 - could use ternary operator instead
 // Line 29 - should not use inline styles, refactor into className or styled component, move it to separate file
 
@@ -77,7 +77,8 @@ class App extends React.Component {
 // Line 40 - can refactor it into functional component
 // Line 41 - can use useState to define state of this component
 // Line 44 - remove comment, strive for self documenting codebase
-// Line 46 and 47 - cab use more meaningful names
+// Line 46 and 47 - can use more meaningful names
+// Line 52 - need to unmount component with componentUnmount or handle with useEffect
 // Line 60 - can refactor into useEffect hook
 // Line 65 - use for meaning full name for variable
 // Line 65 and 66 - use const instead of var
